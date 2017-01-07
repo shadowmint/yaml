@@ -1,0 +1,27 @@
+{
+  "name": "go-yaml",
+  "version": "1.0.0",
+  "description": "This is an NPM compatible fork of https://github.com/go-yaml/yaml",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/go-yaml/yaml.git"
+  },
+  "files": [
+    "*.go",
+    "scripts"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/go-yaml/yaml/issues"
+  },
+  "homepage": "https://github.com/go-yaml/yaml",
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "ncp": "^2.0.0"
+  }
+}
